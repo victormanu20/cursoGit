@@ -1,0 +1,30 @@
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(3, 4, 53);
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+
+nav ul {
+    display: flex;
+    gap:8px;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+    background-color: black;
+    padding: 8px 8px;
+    border-radius: 10px;
+}
+ul li:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+
+}
