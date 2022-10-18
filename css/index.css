@@ -28,3 +28,20 @@ ul li:hover{
     color: black;
 
 }
+
+main{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    justify-items: center;
+}
+section{
+    width: 400px;
+    height: 100%;
+}
+section p {
+    text-align: justify;
+}
+section img {
+    width: 200px;    
+}
