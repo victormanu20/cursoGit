@@ -32,8 +32,8 @@ ul li:hover{
 main{
     display: grid;
     width: 100%;
-    height: 100vh;
     justify-items: center;
+    height: auto;
 }
 section{
     width: 400px;
@@ -44,4 +44,22 @@ section p {
 }
 section img {
     width: 200px;    
+}
+footer{
+    display: grid;
+    margin-top: 16px;
+    background-color: rgb(4, 35, 25);
+    place-items: center;
+}
+
+footer p{
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+}
+
+.footer__list{
+    display: flex;
+    gap: 8px;
+    padding: 0;
+    justify-content: center;
 }
